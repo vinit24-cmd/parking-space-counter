@@ -7,7 +7,7 @@ How it works
 
 The program works by manually defining regions of interest (ROIs) for each parking spot in the lot. The program then counts the number of pixels in each ROI and sets a threshold to determine whether the parking spot is free or occupied. The program then counts the number of free spots and returns the total number of available spots.
 
-Requirements
+Requirements:
 
 To run the program, you'll need to have Python 3 and the following Python packages installed:
 
@@ -21,7 +21,7 @@ You can install these packages using pip:
 pip install numpy opencv-python matplotlib
 
 
-Usage
+Usage:
 
 The program consists of two Python files:
 
@@ -39,6 +39,6 @@ Once you have defined the ROIs, run main.py to perform the parking space countin
 
 Run python main.py
 
-License
+License:
 
 The code in this repository is licensed under the MIT License. Feel free to use it for your own projects or research.
